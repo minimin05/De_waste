@@ -2,7 +2,7 @@ import cv2
 from ultralytics import YOLO
 
 # 1. โหลดโมเดล (ตรวจสอบให้มั่นใจว่าใส่ชื่อไฟล์โมเดล YOLOv8 ของคุณถูกต้อง)
-model = YOLO("best_v4_8.pt")  
+model = YOLO("best_v1_8.pt")  
 
 # 2. ตั้งค่าเปิดกล้องเว็บแคม
 cap = cv2.VideoCapture(0)

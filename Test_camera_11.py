@@ -2,7 +2,7 @@ import cv2
 from ultralytics import YOLO
 
 # ใส่โมเดลเวอชั่นที่เลือก
-model = YOLO("best_v1_8.pt")
+model = YOLO("best_v01.pt")
 
 # เปิดกล้อง
 cap = cv2.VideoCapture(0)
